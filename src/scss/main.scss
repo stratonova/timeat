@@ -1,0 +1,15 @@
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "libs/fontawesome/fontawesome-all";
+@import "misc/env";
+@import "misc/mixins";
+@import "misc/adjustment";
+
+@import "./_clock.scss" ;
+
+@import "components/hero";
+@import "components/features";
+@import "components/works";
+@import "components/roadmap";
+@import "components/team";
+@import "components/contact";
+

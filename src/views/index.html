@@ -1,0 +1,16 @@
+{% extends 'template.html' %}
+{% set pageTitle = 'Главная' %}
+
+{% block title %} TIMEAT{% endblock %}
+
+{% block content %}
+  
+  {% include 'components/hero.html' %}
+  {% include 'components/features.html' %}
+  {% include 'views/clock.html' %}
+  {% include 'components/roadmap.html' %}
+  {% include 'components/team.html' %}
+  {% include 'components/contact.html' %}
+
+
+{% endblock %}

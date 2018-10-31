@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $basic-font-size + px;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+// .maincontent {
+//   flex: 1 0;
+// }

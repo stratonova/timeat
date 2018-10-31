@@ -1,0 +1,9 @@
+.contact__heading-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.contact__heading {
+  @include heading;
+}

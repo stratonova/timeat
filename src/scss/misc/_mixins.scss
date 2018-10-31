@@ -1,0 +1,67 @@
+@mixin small {
+  @media screen and (min-width: 451px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// @mixin container {
+//   padding: 0 15px;
+//   width: 100%;
+
+//   @include medium {
+//     width: 640px;
+//     margin: 0 auto;
+//   }
+
+//   @include large {
+//     width: 990px;
+//   }
+// }
+
+@mixin rem($size) {
+  font-size: $size / $basic-font-size + rem;
+}
+
+@mixin ui-reset-btn {
+  background: none;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+@mixin ui-btn {
+  background-color: $accent;
+  color: #fff;
+  width: 235px;
+  height: 62px;
+  border-radius: 31px;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@mixin reset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@mixin heading {
+  font-size: 48px;
+  color: $accent;
+  text-transform: uppercase;
+  font-weight: 300;
+}

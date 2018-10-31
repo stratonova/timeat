@@ -1,0 +1,15 @@
+.clock-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock {
+  height: 630px;
+}
+
+.clock__img {
+  max-height: 630px;
+  right: 0;
+  top: -400px;
+}
